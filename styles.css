@@ -1,0 +1,58 @@
+body{
+    background-image:linear-gradient(45deg, aliceblue 0%, white 100%);
+}
+.score-container h3{
+    font-size:40px;
+    
+}
+#startButton{
+    width:100px;
+    height:40px;
+    margin-bottom:10px;
+    background-color:black;
+    border: 3px outset silver;
+    border-radius:5px;
+    color:white;
+}
+.score-container span{
+    font-size:20px;
+}
+.grid-container{
+    display:flex;
+    background-image: url(./tetris.jpg);
+    
+
+}
+.grid{
+    width:200px;
+    height:400px;
+    background-image:linear-gradient(45deg, silver 45%, gray 50% );
+    display:flex;
+    flex-wrap:wrap;
+    margin:auto;
+    border: 4px inset white;
+    border-radius:5px;
+}
+.grid div{
+    height: 20px;
+    width: 20px;
+    
+}
+.tetromino{
+    background-color:yellow;
+}
+
+.mini-grid{
+    width:80px;
+    height:80px;
+    display:flex;
+    flex-wrap:wrap;
+    background-image:linear-gradient(45deg, #ff6347 50%, #ffcbcb 55% );
+    margin-left:20px;
+    border:4px inset white;
+    border-radius:5px;
+}
+.mini-grid div{
+    width:20px;
+    height:20px;
+}
